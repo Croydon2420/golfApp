@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Golf App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="action.js"></script>
+</head>
+<body>
+
+    <select id="mycourses" onchange="getcourse(this.value)">
+
+    </select>
+    <select id="mytees" onchange="setTee(this.value)">
+
+    </select>
+
+    <div class="container">
+        <div class="namelist"></div>
+        <div class="box">
+
+        </div>
+    </div>
+    <button onclick="addplayer()">Add Player</button>
+
+</body>
+</html>

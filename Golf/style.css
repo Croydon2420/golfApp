@@ -1,0 +1,55 @@
+select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.container{
+    display: flex;
+}
+.namelist{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.namebox{
+    height: 30px;
+    margin-top: 25px;
+    width: 100px;
+}
+.box{
+    display: flex;
+}
+.column{
+    margin-right: 10px;
+}
+.minibox{
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holenuma {
+    border: 0.3px solid black;
+    width: 60px;
+    text-align: center;
+}
+.ydg {
+    border-left: 0.3px solid black;
+    border-right: 0.3px solid black;
+    width: 60px;
+    text-align: center;
+}
+.par {
+    border: 0.3px solid black;
+    width: 60px;
+    text-align: center;
+}
+#name1 {
+    margin-top: 60px;
+}
